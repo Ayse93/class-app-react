@@ -1,5 +1,97 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.rightBlock {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #376b8a;
+  position: absolute;
+  left: 5cm;
+}
+
+
+.name {
+  font-weight: 700;
+  font-size: 50px;
+  color: #376b8a
+}
+
+.title {
+  font-weight: 400;
+  font-size: 30px;
+  color: #376b8a
+}
+
+.my-infos {
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 100px;
+  color: #376b8a
+}
+
+.div-img {
+  justify-content: right;
+  height: 100vh;
+  padding: -30;
+  padding-left: 100px;
+  float: right;
+  clear: both;
+  right: 5cm;
+  margin-top: -400px;
+  position: absolute;
+
+}
+
+img {
+  border-radius: 300px;
+  border: #376b8a;
+}
+
+.div-btn {
+  padding-left: 900px;
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  right: 1cm;
+  top: 0;
+  padding-top: 10px;
+
+}
+
+.div-btn button {
+  background-color: #376b8a;
+  color: #a6e7e9;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.head {
+  justify-content: space-around;
+  display: flex;
+  font-size: large;
+  color: #376b8a;
 }
 
 .App-logo {
@@ -13,25 +105,38 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+
+.App-head {
+  background-color: #a6e7e9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #397435;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  background-color: #a6e7e9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #376b8a;
+  padding-bottom: 320px;
+
 }
+
+
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
